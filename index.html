@@ -117,9 +117,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <a href="https://www.victor-uva.org/">Victor Lab</a> being advised by Prof. Tomonari Furukawa. I
                     received my M.S. at the school of automation from Beijing Institute of Technology advised by
                     <a href="https://scholar.google.com/citations?user=HtedN3oAAAAJ&hl=en">Prof. Yuanqing Xia</a>
-                    and B.S. at the Wuhan University of Technology. My research interests include robotics,
-                    cyber-physical Systems, and machine learing. Related topics include estimation, perception, and path
-                    planning. I enjoy working on autonomous systems which can benefit humans.
+                    and B.S. at the Wuhan University of Technology. My research interests include robotics, human-robot interaction, cyber-physical Systems, and machine learning. Related topics include infering human intention, motion prediction, shared autonomy, perception, and path planning. I enjoy working on autonomous systems which can benefit humans.
                   </p>
                 </div>
                 <div class="clearfix"></div>
@@ -165,13 +163,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
           <li>
             <b>Ergonomic Robotic Escort Inferring Human Intention and Utilizing Motion Patterns</b>
             <br />
-            For robotic escort, a robot moves proactively in front of a human through inferring the human intention.
-            Since no direct communication exists, the uncertainty of intention inference is considerable. This work introduces motion patterns corresponding to the intentions. The intention is inferred considering the patterns and the robot movement is also constrained by the patterns, which leads to predictable robot movements and avoids assiduous human attention.
+            For robotic escort, a robot moves in front of a human and complies with the human aim without direct communication..
+            This work introduces motion patterns to both infer the human intention and control the robot.
+            A certain level of autonomy is provided to the robot, which leads to capable ability of running in cluttered environment and easier operating.
             <br />
             <img src="projects/escort/problem_diagram.png" style="height: 200px; float: left" />
             <img src="projects/escort/graphical_model.png" style="height: 200px; float: left" />
             <img src="projects/escort/head_direction.png" style="height: 200px; float: left" />
-            <img src="projects/escort/data.png" style="height: 200px; float: left" />
+            <iframe src="https://youtu.be/3dW40r0tADI" height="200"> </iframe>
             <br clear="all" />
           </li>
 
@@ -190,7 +189,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
           <li>
             <b>Intention Inference and Motion Prediction</b>
             <br />
-            Associates the recurring motion behaviors of a moving agent with intentions. Infers the intention and models
+            Associates the recurring behaviors of a moving agent with intentions. Infers the intention and models
             the motion pattern. Utilizes the intention and motion pattern to improve the state estimation.
             <br />
             Since an agent's intention is usually related to environmental objects. The relations among the target and
